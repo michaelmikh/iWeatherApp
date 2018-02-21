@@ -26,7 +26,7 @@ class CityDetailViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        guard var forecasts = city.forecasts!.allObjects as? [Forecast] else {
+        guard var forecasts = city.forecasts?.allObjects as? [Forecast] else {
             return
         }
         
