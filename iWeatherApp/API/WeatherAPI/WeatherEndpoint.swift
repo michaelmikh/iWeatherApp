@@ -18,7 +18,7 @@ enum WeatherEndpoint: APIEndpoint {
     
     // API key from APIXU
     var key: String {
-        return "5dee1bd97882462aa50135821181902"
+        return "<YOUR_KEY>"
     }
     
     var path: String {
